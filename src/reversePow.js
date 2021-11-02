@@ -13,7 +13,7 @@ function powish(transform) {
       base = 1;
 
   function rescale() {
-    return transform(transformPow(base), transformPow(1 / nase));
+    return transform(transformPow(base), transformPow(1 / base));
   }
 
   scale.base = function(_) {
